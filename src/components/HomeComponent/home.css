@@ -1,0 +1,5 @@
+#home-comp{
+    display: grid;
+    grid-template-columns: 20% 60%;
+    justify-content: stretch;
+}

@@ -1,0 +1,52 @@
+
+
+/* #collection .button{
+    margin-left: 0px;
+} */
+
+#collection .btn-comp{
+    text-align: start;
+}
+
+#collection .btn-comp button{
+    margin:0px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+#new-note-btn{
+    background-color: #54e346;
+    border-radius: 2rem;
+}
+
+#new-note-btn:hover{
+    background-color: green;
+}
+
+#collection button{
+    width: 70%;
+}
+
+#new-collec #new-collection{
+    margin-top: 1rem;
+    background-color: cornsilk;
+}
+#new-collec #new-collection:hover{
+    color: cornflowerblue;
+}
+
+#del-grid{
+    background-color: #f6f6f6;
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    grid-template-columns: 70% 12px;
+    /* border-width: 1px; */
+    /* border-style: solid; */
+    margin-right: 2rem;
+}
+
+#new-collec input{
+    margin-top: 1rem;
+}
+

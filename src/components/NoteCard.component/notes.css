@@ -1,0 +1,47 @@
+.notes-card{
+    border-style: dotted;
+    border-width: 0.3rem;
+    border-color: chartreuse;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.notes-card .description{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .notes-card button{
+    width: 20%;
+} */
+
+.notes-card #note-card-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#notes-card-btn .btn-comp button{
+    width: fit-content
+}
+
+.description b{
+    margin-right: 1rem;
+}
+
+.description textarea{
+    margin-right: 1rem;
+}
+
+#note-card-btn button{
+    height: auto;
+    width: auto;
+}
+
+#note-card-btn .btn-comp{
+    width: auto;
+}
+
