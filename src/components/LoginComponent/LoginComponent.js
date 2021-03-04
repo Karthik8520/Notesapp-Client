@@ -48,8 +48,10 @@ class login extends Component
             <div id="login">
                 <div id="login-card">
                     <h1>Login</h1>
-                    <FormInput id="email" placeholder="john@example.com" type="email" label="Email"  onChange={(e)=>{this.setState({email:e.target.value})}} />
-                    <FormInput id="pswd" placeholder="********" type="password" label="Password" onChange={(e)=>{this.setState({password:e.target.value})}}  />
+                    <div>
+                        <FormInput id="email" placeholder="john@example.com" type="email" label="Email"  onChange={(e)=>{this.setState({email:e.target.value})}} />
+                        <FormInput id="pswd" placeholder="********" type="password" label="Password" onChange={(e)=>{this.setState({password:e.target.value})}}  />
+                    </div>
                     <Button type="submit" onClick={this.handleSubmit} >Login</Button>
                     {/* <button type="submit" onClick={this.handleSubmit}>Login</button> */}
                 </div>
